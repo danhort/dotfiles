@@ -1,6 +1,6 @@
-[user]
-    name = Daniel Horton-Wellings
-    email = danielhortonwellings@gmail.com
+# ============================================================================
+# Local
+# ============================================================================
 
-[github]
-    user = danhort
+[include]
+path = "~/.dotfiles/local/gitconfig"

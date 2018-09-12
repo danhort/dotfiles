@@ -24,8 +24,8 @@ PATH="$DOTFILES_DIR/bin:$PATH"
 
 # Finally we can source the dotfiles (order matters)
 
-for DOTFILE in "$DOTFILES_DIR"/system/.{alias}; do
-  [ -f "$DOTFILE" ] && . "$DOTFILE"
+for DOTFILE in "$DOTFILES_DIR"/system/.alias; do
+  [ -f "$DOTFILE" ] &&  . "$DOTFILE"
 done
 
 # Clean up

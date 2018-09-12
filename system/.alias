@@ -1,8 +1,8 @@
-alias keeper='java -Xms256m -Xmx1g -jar ~/keeper/KeeperDesktop.jar'
-
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+alias ll='ls -la'
 
 alias brando='cd ~/Documents/dev/brandography/clients'
 alias perso='cd ~/Documents/dev/perso'
