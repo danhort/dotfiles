@@ -25,6 +25,9 @@ PATH="$DOTFILES_DIR/bin:$PATH"
 # source the custom bash prompt
 . "$DOTFILES_DIR"/system/prompt.sh
 
+# set ls colors
+export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33'
+
 # Clean up
 unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE
 

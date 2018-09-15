@@ -2,7 +2,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
-alias ll='ls -la'
+alias ll='ls -la --color=always'
 
 # include local aliases
 if [ -f "$DOTFILES_DIR"/local/.alias ]; then
