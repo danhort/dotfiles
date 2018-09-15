@@ -4,5 +4,7 @@ alias ....='cd ../../..'
 
 alias ll='ls -la'
 
-alias brando='cd ~/Documents/dev/brandography/clients'
-alias perso='cd ~/Documents/dev/perso'
+# include local aliases
+if [ -f "$DOTFILES_DIR"/local/.alias ]; then
+  . "$DOTFILES_DIR"/local/.alias
+fi

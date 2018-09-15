@@ -1,6 +1,7 @@
-# Dan's Ubuntu dotfiles
+# Ubuntu dotfiles
 
 ## install
 ```
-./install.sh
+git clone --recurse-submodule git@github.com:danhort/dotfiles.git <dotfile dir>
+./<dotfile dir>/init.sh
 ```
