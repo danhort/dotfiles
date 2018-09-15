@@ -5,8 +5,8 @@
 
 __powerline() {
     # Colorscheme
-    readonly COLOR_USER='\e[93m' #yellow
-    readonly COLOR_HOST='\e[93m' #yellow
+    readonly COLOR_USER='\[\033[0;93m\]' #yellow
+    readonly COLOR_HOST='\[\033[0;93m\]' #yellow
     readonly RESET='\[\033[m\]'
     readonly COLOR_CWD='\[\033[0;34m\]' # blue
     readonly COLOR_GIT='\[\033[0;36m\]' # cyan
