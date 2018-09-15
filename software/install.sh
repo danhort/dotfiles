@@ -14,4 +14,5 @@ curl \
 mysql-workbench \
 vagrant \
 virtualbox \
-gnome-tweak-tool
+gnome-tweak-tool \
+htop
