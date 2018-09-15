@@ -19,10 +19,11 @@ fi
 # Make utilities available
 PATH="$DOTFILES_DIR/bin:$PATH"
 
-# Finally we can source the dotfiles (order matters)
-for DOTFILE in "$DOTFILES_DIR"/system/.alias; do
-  [ -f "$DOTFILE" ] &&  . "$DOTFILE"
-done
+# source the alias file
+. "$DOTFILES_DIR"/system/.alias
+
+# source the custom bash prompt
+. "$DOTFILES_DIR"/system/prompt.sh
 
 # Clean up
 unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE

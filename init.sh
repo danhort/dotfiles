@@ -17,6 +17,6 @@ fi
 ./software/install.sh
 
 # Bunch of symlinks
-ln -svf "$DOTFILES_DIR/runcom/.bashrc" ~
+ln -svf "$DOTFILES_DIR/system/.bashrc" ~
 ln -svf "$DOTFILES_DIR/git/.gitconfig" ~
 ln -svf "$DOTFILES_DIR/editorconfig/.editorconfig" ~
