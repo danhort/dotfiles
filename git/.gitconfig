@@ -3,4 +3,4 @@
 # ============================================================================
 
 [include]
-path = "~/.dotfiles/local/gitconfig"
+path = "~/.dotfiles/local/.gitconfig"
