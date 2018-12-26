@@ -2,6 +2,9 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
+# Docker
+alias dc=docker-compose
+
 alias ll='ls -la --color=always'
 
 # include local aliases
