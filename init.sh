@@ -19,4 +19,4 @@ fi
 # Bunch of symlinks
 ln -svf "$DOTFILES_DIR/system/.bashrc" ~
 ln -svf "$DOTFILES_DIR/git/.gitconfig" ~
-ln -svf "$DOTFILES_DIR/editorconfig/.editorconfig" ~
+ln -svf "$DOTFILES_DIR/system/.editorconfig" ~
