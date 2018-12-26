@@ -1,3 +1,0 @@
-[submodule "editorconfig"]
-	path = editorconfig
-	url = git@github.com:danhort/.editorconfig.git
