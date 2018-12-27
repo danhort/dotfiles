@@ -20,4 +20,5 @@ fi
 ln -svf "$DOTFILES_DIR/system/.bashrc" ~
 ln -svf "$DOTFILES_DIR/git/.gitconfig" ~
 ln -svf "$DOTFILES_DIR/system/.editorconfig" ~
+mkdir -p ~/.config/Code/User
 ln -svf "$DOTFILES_DIR/settings/vscode/settings.json" ~/.config/Code/User
