@@ -11,7 +11,7 @@ charset = utf-8
 indent_style = space
 ## editorconfig-tools is unable to ignore longs strings or urls
 max_line_length = null
-trim_trailing_whitespace = true
+trim_trailing_whitespace = false
 
 
 ## PHP
