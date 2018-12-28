@@ -8,7 +8,7 @@ sudo sysctl -p
 
 # Add vs code settings
 echo "-- Adding vs code settings --"
-mkdir -p .config/Code/User
+mkdir -p ~/.config/Code/User
 ln -svf ~/.dotfiles/settings/vscode/settings.json ~/.config/Code/User
 
 # Add Git configs
