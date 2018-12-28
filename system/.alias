@@ -1,7 +1,7 @@
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias dotfiles="cd $DOTFILES_DIR"
+alias dotfiles="cd $DOTFILES_PATH"
 
 # Docker
 alias dc=docker-compose
@@ -9,6 +9,6 @@ alias dc=docker-compose
 alias ll='ls -la --color=always'
 
 # include local aliases
-if [ -f "$DOTFILES_DIR"/local/.alias ]; then
-  . "$DOTFILES_DIR"/local/.alias
+if [ -f "$DOTFILES_PATH"/local/.alias ]; then
+  . "$DOTFILES_PATH"/local/.alias
 fi
