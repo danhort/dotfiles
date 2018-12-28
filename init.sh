@@ -13,18 +13,16 @@ if is-executable git -a -d "$DOTFILES_PATH/.git"; then
   git --work-tree="$DOTFILES_PATH" --git-dir="$DOTFILES_PATH/.git" pull origin master;
 fi
 
-# install software
-./software/install.sh
-
-# update system settings
-sudo ./system/settings.sh
-
 # Bunch of symlinks
 echo "-- Creating Symllinks --"
 rm ~/.dotfiles
 ln -sv $DOTFILES_PATH ~/.dotfiles
-ln -svf .dotfiles/system/.bashrc ~
-ln -svf .dotfiles/git/.gitconfig ~
-ln -svf .dotfiles/system/.editorconfig ~
-mkdir -p .config/Code/User
-ln -svf ~/.dotfiles/settings/vscode/settings.json ~/.config/Code/User
+
+# install software
+./software/install.sh
+
+# update system files
+./system/system.sh
+
+# update system settings
+./settings/settings.sh
