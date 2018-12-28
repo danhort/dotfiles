@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo "-- Installing Software --"
 sudo apt update
 sudo apt install -y \
     make \

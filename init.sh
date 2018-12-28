@@ -16,8 +16,13 @@ fi
 # install software
 ./software/install.sh
 
+# update system settings
+sudo ./system/settings.sh
+
 # Bunch of symlinks
-ln -svf $DOTFILES_PATH ~/.dotfiles
+echo "-- Creating Symllinks --"
+rm ~/.dotfiles
+ln -sv $DOTFILES_PATH ~/.dotfiles
 ln -svf .dotfiles/system/.bashrc ~
 ln -svf .dotfiles/git/.gitconfig ~
 ln -svf .dotfiles/system/.editorconfig ~
