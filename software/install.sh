@@ -28,7 +28,8 @@ sudo apt install -y \
     htop \
     timewarrior \
     docker-ce \
-    gh
+    gh \
+    pv
 
 sudo groupadd docker
 sudo usermod -aG docker $USER

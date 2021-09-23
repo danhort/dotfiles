@@ -3,9 +3,12 @@
 echo "-- Installing Software --"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew insatll weget -v
-brew install --cask docker -v
-brew install --cask visual-studio-code -v
-brew install --cask docker -v
-brew install docker-composex -v
-brew install awscli -v
+brew insatll -v \
+    wget \
+    awscli \
+    pv \
+    docker-compose
+    
+brew install --cask -v \
+    docker \
+    visual-studio-code
