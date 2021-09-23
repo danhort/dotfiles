@@ -1,0 +1,13 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias dotfiles="cd ~/.dotfiles"
+alias ll='ls -laG'
+
+# Docker
+alias dc=docker-compose
+
+# include local aliases
+if [ -f ~/.dotfiles/local/.alias ]; then
+  . ~/.dotfiles/local/.alias
+fi

@@ -1,0 +1,25 @@
+## Top editorconfig File
+root = true
+
+## Universal Settings
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+## editorconfig-tools is unable to ignore longs strings or urls
+max_line_length = null
+trim_trailing_whitespace = false
+
+## JS/TS
+[*.{js, ts}]
+quote_type = single
+indent_size = 2
+
+## Makefile
+[{Makefile,Makefile.*}]
+indent_style = tab
+indent_size = 4
+
+## csv
+[*.csv]
+insert_final_newline = false
