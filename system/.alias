@@ -2,7 +2,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias dotfiles="cd ~/.dotfiles"
-alias ll='ls -laG --color'
+alias ll='ls -la --color'
 
 # Docker
 alias dc=docker-compose

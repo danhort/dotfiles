@@ -21,7 +21,6 @@ ln -sv $DOTFILES_PATH ~/.dotfiles
 if [[ $OSTYPE == 'darwin'* ]]; then
 	# install osx software
 	./software/install-osx.sh
-	pwd
 else
 	# install software
 	./software/install.sh

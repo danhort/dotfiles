@@ -29,7 +29,6 @@ sudo apt install -y \
     gitk \
     slack-desktop \
     awscli \
-    gnome-tweak-tool \
     htop \
     timewarrior \
     docker-ce \
