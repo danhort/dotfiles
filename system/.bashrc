@@ -15,3 +15,8 @@ export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33'
 
 # Export
 export DOTFILES_PATH
+
+# source local bashrc
+if [ -f ~/.dotfiles/local/.alias ]; then
+    . ~/.dotfiles/local/.bashrc
+fi

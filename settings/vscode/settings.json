@@ -1,3 +1,5 @@
 {
-    "editor.lineHeight": 35
+    "editor.lineHeight": 35,
+    "scm.alwaysShowRepositories": true,
+    "workbench.startupEditor": "none"
 }

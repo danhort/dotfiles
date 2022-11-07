@@ -1,3 +1,7 @@
 # include local gticonfig
 [include]
 path = "~/.dotfiles/local/.gitconfig"
+[core]
+	pager = less
+[init]
+	defaultBranch = main
