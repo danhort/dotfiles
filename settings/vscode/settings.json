@@ -1,5 +1,44 @@
 {
     "editor.lineHeight": 35,
     "scm.alwaysShowRepositories": true,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.inlineSuggest.enabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "editor.inlineSuggest.edits.renderSideBySide": "never",
+    "editor.inlineSuggest.edits.allowCodeShifting": "never",
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "yaml.schemas": {
+        "file:///home/daniel.horton-wellings/.vscode/extensions/atlassian.atlascode-4.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+    },
+    "atlascode.jira.enabled": true,
+    "atlascode.bitbucket.enabled": false,
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "",
+        "projectKey": "",
+    },
+    "cSpell.userWords": ["metafields", "Metaobject", "Metaobjects", "syncable"],
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+    },
+    "editor.codeActions.triggerOnFocusChange": true,
+    "files.trimTrailingWhitespaceInRegexAndStrings": false,
+    "files.trimTrailingWhitespace": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+    },
+    "claudeCode.preferredLocation": "panel",
+    "editor.formatOnSave": true,
+    "php.validate.executablePath": "",
+    "js/ts.updateImportsOnFileMove.enabled": "never",
 }
